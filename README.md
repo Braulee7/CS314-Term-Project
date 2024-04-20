@@ -6,7 +6,7 @@ Clone the project to your local machine recursively to get
 both the front and back end directories
 
 ```bash
-git clone -r https://github.com/Braulee7/CS314-Term-Project.git
+git clone --recursive https://github.com/Braulee7/CS314-Term-Project.git
 ```
 
 Go into each of the directory sub modules to install the npm dependencies

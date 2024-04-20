@@ -1,0 +1,6 @@
+[submodule "CS314-Back-End"]
+	path = CS314-Back-End
+	url = https://github.com/Braulee7/CS314-Back-End.git
+[submodule "CS314-Front-End"]
+	path = CS314-Front-End
+	url = https://github.com/Braulee7/CS314-Front-End.git

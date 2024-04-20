@@ -31,3 +31,10 @@ between the two. When committing code you have to make sure you're in the
 correct submodule directory before doing any git commands. Running `git status`
 in the terminal is useful to identify this. Additionally the GitLens VS code
 extension is helpful in identifying these submodules.
+
+### Continuous Integration
+I have set up Github Actions to run the automatic testing frameworks on the
+independent directories. When you try to push your code to the main repo it 
+will be tested to make sure everything runs correctly with vitest on the front
+end and supertest on the backend. I recommend doing test driven development,
+that is write your tests first then start implementing your feature.

@@ -33,8 +33,22 @@ in the terminal is useful to identify this. Additionally the GitLens VS code
 extension is helpful in identifying these submodules.
 
 ### Continuous Integration
+
 I have set up Github Actions to run the automatic testing frameworks on the
-independent directories. When you try to push your code to the main repo it 
+independent directories. When you try to push your code to the main repo it
 will be tested to make sure everything runs correctly with vitest on the front
 end and supertest on the backend. I recommend doing test driven development,
 that is write your tests first then start implementing your feature.
+
+### Jira
+
+Optional things you can do to keep maintainting our progress easier is by
+syncing your progress with Jira. When committing code you can add the
+story id to the front of the commit and Jira will automatically
+sync that commit to the story enabling us to track what code is contributing
+to each story.
+**example**
+
+```bash
+git commit -m "CG21-20 added created query to send a message to the db"
+```

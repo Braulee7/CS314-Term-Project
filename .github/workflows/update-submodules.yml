@@ -2,6 +2,7 @@
 name: Update Submodules
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 0 * * *" # Run daily at midnight (adjust the schedule as needed)
 jobs:
@@ -11,12 +12,14 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        with:
+          submodules: recursive
 
       - name: Set up author
         run: |
           git config user.email "braulio00001@gmail.com"
           git config user.name "Braulee7"
-      
+
       - name: Update submodules
         run: |
           git submodule update --remote --merge

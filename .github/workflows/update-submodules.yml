@@ -22,7 +22,7 @@ jobs:
 
       - name: Update submodules
         run: |
-          git submodule update --remote --merge
+          git submodule update --remote
           git add CS*
           git commit -m "Update submodules"
           git push

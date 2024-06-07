@@ -1,5 +1,6 @@
 # CS314 Group 21 Term Project _Minstant Messenger_
 
+
 ## Setup
 
 Clone the project to your local machine recursively to get
@@ -52,3 +53,26 @@ to each story.
 ```bash
 git commit -m "CG21-20 added created query to send a message to the db"
 ```
+
+
+# CS314 Group 21 Term Project _Minstant Messenger_
+
+By: Braulio Reyes and Max Rego
+(canvas id? idk)
+
+### Structure and Implementation
+
+That goes here!
+
+### GitHub Link
+
+link
+
+### Implemented Tests
+
+test
+
+### Deployment Information
+
+I think you can put info on how to deploy if we dont have a stable link
+

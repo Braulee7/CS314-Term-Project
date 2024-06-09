@@ -24,7 +24,8 @@ Our repository is set up with 3 repositories: The term project is a container
 for both our front and back end code. The container then just has 2 submodules
 for the back end and front end repositories which are independent to each other
 for independent testing and maintainment. 
-[link](https://github.com/Braulee7/CS314-Term-Project)
+
+[Term Project](https://github.com/Braulee7/CS314-Term-Project)
 
 ## Implemented Tests
 

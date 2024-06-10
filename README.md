@@ -2,8 +2,6 @@
 
 By: Braulio Reyes and Max Rego
 
-(canvas id? idk)
-
 ## Structure and Implementation
 
 For structing our project, we devided all potential features into segments, 
@@ -23,7 +21,10 @@ a new login and new token.
 Our repository is set up with 3 repositories: The term project is a container
 for both our front and back end code. The container then just has 2 submodules
 for the back end and front end repositories which are independent to each other
-for independent testing and maintainment. 
+for independent testing and maintainment. GitHub Actions is used for CI and CD
+on the independent front end and back end codes while the container term project
+uses GitHub Actions to keep the commit on the repository to the most up to
+date version. 
 
 [Term Project](https://github.com/Braulee7/CS314-Term-Project)
 

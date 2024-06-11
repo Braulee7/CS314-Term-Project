@@ -42,6 +42,9 @@ and the workflow files are in the individual repositories in the
 `.github/workflows` directory.
 
 ## Deployment Information
+Deployed application on Render using two services for the static front end
+and the back end.
 
-I think you can put info on how to deploy if we dont have a stable link
+[application](https://minstant-messenger.onrender.com)
+[back end](https://minstant-messenger-back-end.onrender.com)
 

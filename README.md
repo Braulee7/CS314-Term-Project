@@ -45,6 +45,7 @@ and the workflow files are in the individual repositories in the
 Deployed application on Render using two services for the static front end
 and the back end.
 
-[application](https://minstant-messenger.onrender.com)
-[back end](https://minstant-messenger-back-end.onrender.com)
+**[application](https://minstant-messenger.onrender.com)**
+
+**[back end](https://minstant-messenger-back-end.onrender.com)**
 
